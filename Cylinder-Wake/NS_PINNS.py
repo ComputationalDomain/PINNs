@@ -112,7 +112,7 @@ class NavierStokes():
 
 N_train = 5000
 
-data = scipy.io.loadmat('cylinder_nektar_wake.mat')
+data = scipy.io.loadmat('cylinder_wake.mat')
 
 U_star = data['U_star']  # N x 2 x T
 P_star = data['p_star']  # N x T
